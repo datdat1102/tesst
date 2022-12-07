@@ -32,7 +32,7 @@ const Dashboard = () => {
     <>
       <Page fullWidth title="Dashboard ">
         <Layout>
-          <Card fullWidth>
+          <Card class="w-Full" >
             <Tabs tabs={tabs} selected={selected} onSelect={handleTabChange} fitted>
               <Card.Section title={tabs[selected].chart}>
               </Card.Section>
