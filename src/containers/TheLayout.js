@@ -186,12 +186,12 @@ function TheSidebar() {
         separator
         items={[
           {
-            url: '/dashboard',
+            url: 'dashboard',
             label: 'Dashboard',
             icon: HomeMajor,
           },
           {
-            url: '/managemet',
+            url: 'managemet',
             label: 'Post Management',
             icon: ListMajor,
           },
