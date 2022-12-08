@@ -46,7 +46,7 @@ const LineChart = () => {
     };
 
     return (
-        <ReactApexChart options={chartData} series={chartData.series} type="line" height={350} />
+        <ReactApexChart options={chartData} series={chartData.series} type="line" height={350} width='1000' />
     );
 }
 export default LineChart;

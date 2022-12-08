@@ -31,14 +31,14 @@ const Dashboard = () => {
   return (
     <>
       <Page fullWidth title="Dashboard ">
-        <Layout>
-          <Card class="w-Full" >
+        <Card class="w-Full" >
+          <Layout>
             <Tabs tabs={tabs} selected={selected} onSelect={handleTabChange} fitted>
               <Card.Section title={tabs[selected].chart}>
               </Card.Section>
             </Tabs>
-          </Card>
-        </Layout>
+          </Layout>
+        </Card>
       </Page>
     </>
   );

@@ -41,7 +41,7 @@ const ColunmChart = () => {
     };
 
     return (
-        <ReactApexChart options={chartData} series={chartData.series} type="bar" height={350} />
+        <ReactApexChart options={chartData} series={chartData.series} type="bar" height={350} width={1000} />
     );
 }
 export default ColunmChart;
