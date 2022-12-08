@@ -173,7 +173,7 @@ function TheSidebar() {
   );
 
   const navigationMarkup = (
-    <Navigation location="/">
+    <Navigation location="/tesst/">
       <Navigation.Section
         items={[
           {
