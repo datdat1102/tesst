@@ -11,7 +11,7 @@ function App() {
       <React.Suspense fallback={[]}>
         <Switch>
           <Route
-            path="/"
+            path="/tesst"
             name="Home"
             render={(props) => <TheLayout {...props} />}
           />

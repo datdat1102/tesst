@@ -173,7 +173,7 @@ function TheSidebar() {
   );
 
   const navigationMarkup = (
-    <Navigation location="/tesst/">
+    <Navigation location="/">
       <Navigation.Section
         items={[
           {
@@ -186,17 +186,17 @@ function TheSidebar() {
         separator
         items={[
           {
-            url: 'dashboard',
+            url: '/tesst/dashboard',
             label: 'Dashboard',
             icon: HomeMajor,
           },
           {
-            url: 'managemet',
+            url: '/tesst/managemet',
             label: 'Post Management',
             icon: ListMajor,
           },
           {
-            url: 'setting',
+            url: '/tesst/setting',
             label: 'Setting',
             icon: SettingsMajor,
           },
@@ -257,7 +257,7 @@ function TheSidebar() {
       'https://cdn.shopify.com/s/files/1/0446/6937/files/jaded-pixel-logo-color.svg?6215648040070010999',
     contextualSaveBarSource:
       'https://cdn.shopify.com/s/files/1/0446/6937/files/jaded-pixel-logo-gray.svg?6215648040070010999',
-    url: '/',
+    url: '/tesst',
     accessibilityLabel: 'Jaded Pixel',
   };
 

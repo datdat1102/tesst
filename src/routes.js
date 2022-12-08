@@ -8,9 +8,9 @@ const Setting = React.lazy(() => import("./views/setting"));
 
 const routes = () => [
   { path: "/tesst/", exact: true, name: 'homePage' },
-  { path: "/dashboard", name: 'dashboard', component: Dashboard },
-  { path: "/managemet", name: 'dashboard', component: Management },
-  { path: "/setting", name: 'dashboard', component: Setting },
+  { path: "/tesst/dashboard", name: 'dashboard', component: Dashboard },
+  { path: "/tesst/managemet", name: 'dashboard', component: Management },
+  { path: "/tesst/setting", name: 'dashboard', component: Setting },
 
 ];
 
